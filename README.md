@@ -3,10 +3,15 @@ mech_vimrc
 
 ##Install
 
-In your home directory
+Clone this repo somewhere
 ```Shell
-git clone git@github.com:mechsix/mech_vimrc.git
-git submodule foreach git pull
+git clone https://github.com/mechsix/mech_vimrc
+cd mech_vimrc && git submodule init && git submodule update
+```
+
+Then copy .vimrc and .vim folder to your home directory
+```Shell
+cp -rf .vim ~ && cp -f .vimrc ~
 ```
 
 ##Notes
